@@ -30,6 +30,7 @@
         {
             this.lbl_Titulo = new System.Windows.Forms.Label();
             this.btn_Sair = new System.Windows.Forms.Button();
+            this.btn_ModificaLabel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_Titulo
@@ -52,12 +53,23 @@
             this.btn_Sair.UseVisualStyleBackColor = true;
             this.btn_Sair.Click += new System.EventHandler(this.btn_Sair_Click);
             // 
+            // btn_ModificaLabel
+            // 
+            this.btn_ModificaLabel.Location = new System.Drawing.Point(33, 85);
+            this.btn_ModificaLabel.Name = "btn_ModificaLabel";
+            this.btn_ModificaLabel.Size = new System.Drawing.Size(187, 23);
+            this.btn_ModificaLabel.TabIndex = 2;
+            this.btn_ModificaLabel.Text = "Modifica Texto do Label";
+            this.btn_ModificaLabel.UseVisualStyleBackColor = true;
+            this.btn_ModificaLabel.Click += new System.EventHandler(this.btn_ModificaLabel_Click);
+            // 
             // Frm_HelloWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_ModificaLabel);
             this.Controls.Add(this.btn_Sair);
             this.Controls.Add(this.lbl_Titulo);
             this.Name = "Frm_HelloWorld";
@@ -73,6 +85,7 @@
 
         private System.Windows.Forms.Label lbl_Titulo;
         private System.Windows.Forms.Button btn_Sair;
+        private System.Windows.Forms.Button btn_ModificaLabel;
     }
 }
 
