@@ -84,7 +84,6 @@
             this.Name = "Frm_ValidaSenha";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Validação de Senhas";
-            this.Load += new System.EventHandler(this.Frm_ValidaSenha_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

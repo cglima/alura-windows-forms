@@ -84,7 +84,6 @@
             this.Name = "Frm_HelloWorld";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hello World";
-            this.Load += new System.EventHandler(this.HelloWorld_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

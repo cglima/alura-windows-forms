@@ -20,11 +20,6 @@ namespace CursoWindowsForms
             InitializeComponent();
         }
 
-        private void Frm_ValidaSenha_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Btn_Reset_Click(object sender, EventArgs e)
         {
             Txt_Senha.Text = "";
