@@ -13,6 +13,8 @@ namespace CursoWindowsForms
 {
     public partial class Frm_ValidaSenha : Form
     {
+        bool VerSenhaTxt = false;
+
         public Frm_ValidaSenha()
         {
             InitializeComponent();
@@ -35,6 +37,36 @@ namespace CursoWindowsForms
             ChecaForcaSenha.ForcaDaSenha forca;
             forca = verifica.GetForcaDaSenha(txt_Senha.Text);
             lbl_Resultado.Text = forca.ToString();
+
+            if (lbl_Resultado.Text == "Inaceitavel" | lbl_Resultado.Text == "Fraca")
+            {
+                lbl_Resultado.ForeColor = Color.Red;
+            }
+            if (lbl_Resultado.Text == "Aceitavel")
+            {
+                lbl_Resultado.ForeColor = Color.Blue;
+            }
+            if (lbl_Resultado.Text == "Forte" | lbl_Resultado.Text == "Segura")
+            {
+                lbl_Resultado.ForeColor = Color.Green;
+            }
+        }
+
+        private void btn_VerSenha_Click(object sender, EventArgs e)
+        {
+            if(VerSenhaTxt == false)
+            {
+                txt_Senha.PasswordChar = '\0';
+                VerSenhaTxt = true;
+                btn_VerSenha.Text = "Esconder Senha";
+            }
+            else
+            {
+                txt_Senha.PasswordChar = '*';
+                VerSenhaTxt = false;
+                btn_VerSenha.Text = "Ver Senha";
+            }
+            
         }
     }
 
