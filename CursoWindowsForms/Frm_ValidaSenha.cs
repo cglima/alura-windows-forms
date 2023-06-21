@@ -25,17 +25,17 @@ namespace CursoWindowsForms
 
         }
 
-        private void btn_Reset_Click(object sender, EventArgs e)
+        private void Btn_Reset_Click(object sender, EventArgs e)
         {
-            txt_Senha.Text = "";
+            Txt_Senha.Text = "";
             lbl_Resultado.Text = "";
         }
 
-        private void txt_Senha_KeyDown(object sender, KeyEventArgs e)
+        private void Txt_Senha_KeyDown(object sender, KeyEventArgs e)
         {
             ChecaForcaSenha verifica = new ChecaForcaSenha();
             ChecaForcaSenha.ForcaDaSenha forca;
-            forca = verifica.GetForcaDaSenha(txt_Senha.Text);
+            forca = verifica.GetForcaDaSenha(Txt_Senha.Text);
             lbl_Resultado.Text = forca.ToString();
 
             if (lbl_Resultado.Text == "Inaceitavel" | lbl_Resultado.Text == "Fraca")
@@ -52,19 +52,19 @@ namespace CursoWindowsForms
             }
         }
 
-        private void btn_VerSenha_Click(object sender, EventArgs e)
+        private void Btn_VerSenha_Click(object sender, EventArgs e)
         {
             if(VerSenhaTxt == false)
             {
-                txt_Senha.PasswordChar = '\0';
+                Txt_Senha.PasswordChar = '\0';
                 VerSenhaTxt = true;
-                btn_VerSenha.Text = "Esconder Senha";
+                Btn_VerSenha.Text = "Esconder Senha";
             }
             else
             {
-                txt_Senha.PasswordChar = '*';
+                Txt_Senha.PasswordChar = '*';
                 VerSenhaTxt = false;
-                btn_VerSenha.Text = "Ver Senha";
+                Btn_VerSenha.Text = "Ver Senha";
             }
             
         }
