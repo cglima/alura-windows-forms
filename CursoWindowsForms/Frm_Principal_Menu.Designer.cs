@@ -90,36 +90,42 @@
             // 
             // demonstraçãoKeyToolStripMenuItem
             // 
+            this.demonstraçãoKeyToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_DemonstracaoKey;
             this.demonstraçãoKeyToolStripMenuItem.Name = "demonstraçãoKeyToolStripMenuItem";
             this.demonstraçãoKeyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.demonstraçãoKeyToolStripMenuItem.Text = "Demonstração Key";
             // 
             // helloWorldToolStripMenuItem
             // 
+            this.helloWorldToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_HelloWorld;
             this.helloWorldToolStripMenuItem.Name = "helloWorldToolStripMenuItem";
             this.helloWorldToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.helloWorldToolStripMenuItem.Text = "Hello World";
             // 
             // máscaraToolStripMenuItem
             // 
+            this.máscaraToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_Mascara;
             this.máscaraToolStripMenuItem.Name = "máscaraToolStripMenuItem";
             this.máscaraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.máscaraToolStripMenuItem.Text = "Máscara";
             // 
             // validaCPFToolStripMenuItem
             // 
+            this.validaCPFToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_ValidaCPF;
             this.validaCPFToolStripMenuItem.Name = "validaCPFToolStripMenuItem";
             this.validaCPFToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.validaCPFToolStripMenuItem.Text = "Valida CPF";
             // 
             // validaCPF2ToolStripMenuItem
             // 
+            this.validaCPF2ToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_ValidaCPF2;
             this.validaCPF2ToolStripMenuItem.Name = "validaCPF2ToolStripMenuItem";
             this.validaCPF2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.validaCPF2ToolStripMenuItem.Text = "Valida CPF 2";
             // 
             // validaSenhaToolStripMenuItem
             // 
+            this.validaSenhaToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_ValidaSenha;
             this.validaSenhaToolStripMenuItem.Name = "validaSenhaToolStripMenuItem";
             this.validaSenhaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.validaSenhaToolStripMenuItem.Text = "Valida Senha";
