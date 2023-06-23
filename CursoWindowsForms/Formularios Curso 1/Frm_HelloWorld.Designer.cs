@@ -44,6 +44,7 @@
             this.lbl_Titulo.Size = new System.Drawing.Size(190, 16);
             this.lbl_Titulo.TabIndex = 0;
             this.lbl_Titulo.Text = "Visual Studio .NET Version";
+            this.lbl_Titulo.Click += new System.EventHandler(this.lbl_Titulo_Click);
             // 
             // btn_Sair
             // 
@@ -74,6 +75,7 @@
             this.txt_ConteudoLabel.Name = "txt_ConteudoLabel";
             this.txt_ConteudoLabel.Size = new System.Drawing.Size(378, 20);
             this.txt_ConteudoLabel.TabIndex = 3;
+            this.txt_ConteudoLabel.TextChanged += new System.EventHandler(this.txt_ConteudoLabel_TextChanged);
             // 
             // Frm_HelloWorld
             // 
