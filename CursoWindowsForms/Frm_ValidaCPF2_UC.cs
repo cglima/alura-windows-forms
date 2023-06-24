@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace CursoWindowsForms
 {
-    public partial class Frm_ValidaCPF2 : Form
+    public partial class Frm_ValidaCPF2_UC : UserControl
     {
-        public Frm_ValidaCPF2()
+        public Frm_ValidaCPF2_UC()
         {
             InitializeComponent();
         }
@@ -29,19 +29,19 @@ namespace CursoWindowsForms
             vConteudo = Msk_CPF.Text;
             vConteudo = vConteudo.Replace(".", "").Replace("-", "");
             vConteudo = vConteudo.Trim();
-            if(vConteudo == "")
+            if (vConteudo == "")
             {
                 MessageBox.Show("Você deve digitar um CPF", "Mensagem de Validação",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                if(vConteudo.Length != 11)
+                if (vConteudo.Length != 11)
                 {
                     MessageBox.Show("CPF deve ter 11 digitos", "Mensagem de Validação",
                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                else 
+                else
                 {
                     if (MessageBox.Show("Você deseja realmente validar o CPF?",
                                 "Mensagem de Validação", MessageBoxButtons.YesNo,

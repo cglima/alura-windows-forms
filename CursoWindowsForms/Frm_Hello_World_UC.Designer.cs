@@ -37,16 +37,16 @@
             // 
             this.txt_ConteudoLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_ConteudoLabel.Location = new System.Drawing.Point(45, 119);
+            this.txt_ConteudoLabel.Location = new System.Drawing.Point(17, 71);
             this.txt_ConteudoLabel.Name = "txt_ConteudoLabel";
-            this.txt_ConteudoLabel.Size = new System.Drawing.Size(694, 20);
+            this.txt_ConteudoLabel.Size = new System.Drawing.Size(238, 20);
             this.txt_ConteudoLabel.TabIndex = 6;
             // 
             // btn_ModificaLabel
             // 
-            this.btn_ModificaLabel.Location = new System.Drawing.Point(45, 75);
+            this.btn_ModificaLabel.Location = new System.Drawing.Point(17, 42);
             this.btn_ModificaLabel.Name = "btn_ModificaLabel";
-            this.btn_ModificaLabel.Size = new System.Drawing.Size(227, 23);
+            this.btn_ModificaLabel.Size = new System.Drawing.Size(209, 23);
             this.btn_ModificaLabel.TabIndex = 5;
             this.btn_ModificaLabel.Text = "Modifica Texto do Label";
             this.btn_ModificaLabel.UseVisualStyleBackColor = true;
@@ -56,7 +56,7 @@
             // 
             this.lbl_Titulo.AutoSize = true;
             this.lbl_Titulo.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Titulo.Location = new System.Drawing.Point(42, 36);
+            this.lbl_Titulo.Location = new System.Drawing.Point(13, 20);
             this.lbl_Titulo.Name = "lbl_Titulo";
             this.lbl_Titulo.Size = new System.Drawing.Size(190, 16);
             this.lbl_Titulo.TabIndex = 4;
@@ -70,7 +70,7 @@
             this.Controls.Add(this.btn_ModificaLabel);
             this.Controls.Add(this.lbl_Titulo);
             this.Name = "Frm_Hello_World_UC";
-            this.Size = new System.Drawing.Size(797, 579);
+            this.Size = new System.Drawing.Size(537, 330);
             this.ResumeLayout(false);
             this.PerformLayout();
 
