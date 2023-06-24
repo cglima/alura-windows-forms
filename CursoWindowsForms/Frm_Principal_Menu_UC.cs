@@ -139,6 +139,12 @@ namespace CursoWindowsForms
                 Tbc_Aplicacoes.TabPages.Add(TB);
             }   
         }
+
+        private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Login F = new Frm_Login();
+            F.ShowDialog();
+        }
     }
 }
 
