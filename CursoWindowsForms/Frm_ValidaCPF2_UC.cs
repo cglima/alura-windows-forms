@@ -43,7 +43,7 @@ namespace CursoWindowsForms
                 }
                 else
                 {
-                    Frm_Questao Db = new Frm_Questao();
+                    Frm_Questao Db = new Frm_Questao("Frm_ValidaCPF2", "Tem certeza em validar o CPF?");
                     Db.ShowDialog();
                     //if (MessageBox.Show("Você deseja realmente validar o CPF?",
                     //            "Mensagem de Validação", MessageBoxButtons.YesNo,
